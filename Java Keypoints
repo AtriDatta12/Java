@@ -1,0 +1,107 @@
+Java is a high-level language.
+Java is an object oriented programming language.
+Java is a case sensitive language.
+Java was developed by Sun Microsoft System in 1995. From 2010 onwards java is owned by Oracle.
+The first version released was JDK1.0. The recent version of java is JDK20
+
+Software: JDK is a software which is used to compile, interpret and execute the java programs. 
+
+JDK stands for Java Development Kit. 
+JRE stands for Java Runtime Environment.
+JVM stands for Java Virtual machine.
+
+Coming to the hierarchy JDK itself contains JRE and JVM.
+As a developer(programmer) one must download JDK only.
+
+JRE contains JVM and java library files to execute the java program(byte code).
+
+When a java program is compiled then a byte code is generated. This byte code is executed in every platform using JVM. 
+
+JVM will interpret the byte code and convert the byte code into platform specific machine level code. Hence java is called platform independent language.
+
+
+
+
+
+
+
+
+Comparing C and Java program execution steps.
+
+When a C program is compiled it will be directly converted into machine level language[Platform dependent]. For example if a C program is compiled in the Windows operating system using DEV C++ then machine level code[.exe] is generated based on the Windows operating system. This .exe is code will be executed only in the Windows operating system[.exe file will not be executed in other operating system like Ubuntu/MAC os etc].
+        Java program is compiled and executed in two steps.
+Step 1: java program is sent to the compiler first, it will check for syntactic mistakes. If the program is syntactically correct then the compiler will convert the java source file into byte code. This byte code is a platform independent code whose extension is .class file. 
+Step 2: The byte code generated in step1 is interpreted by java interpreter and byte code will be converted to machine level language.
+
+
+
+
+J2SE - Java Platform, Standard edition
+J2SE(Java Platform, Standard Edition)
+Also known as Core Java, this is the most basic and standard version of Java.It’s the purest form of Java, a basic foundation for all other editions.
+
+It consists of a wide variety of general purpose API’s (like java.lang, java.util) as well as many special purpose APIs
+
+J2SE is mainly used to create applications for Desktop environment.
+
+It consist all the basics of Java the language, variables, primitive data types, Arrays, Streams, Strings Java Database Connectivity(JDBC) and much more. This is the standard, from which all other editions came out, according to the needs of the time.
+
+The famous JVM of Java, the heart of Java development, was also given by this edition only.It’s because of this feature, that Java has such a wide usage.
+
+J2ME(Java Platform, Micro Edition)
+This version of Java is mainly concentrated for the applications running on embedded systems, mobiles and small devices.(which was a constraint before it’s development)
+
+Constraints included limited processing power, battery limitation, small display etc.
+
+Also, the J2ME apps help in using web compression technologies, which in turn, reduce network usage, and hence cheap internet accessibility.
+
+J2ME uses many libraries and API’s of J2SE, as well as, many of it’s own.
+
+The basic aim of this edition was to work on mobiles, wireless devices, set top boxes etc.
+
+Old Nokia phones, which used Symbian OS, used this technology.
+
+Most of the apps, developed for the phones(prior to smartphones era), were built on J2ME platform only(the .jar apps on Nokia app store).
+
+J2EE(Java Platform, Enterprise Edition)
+The Enterprise version of Java has a much larger usage of Java, like development of web services, networking, server side scripting and other various web based applications.
+
+J2EE is a community driven edition, i.e. there is a lot of continuous contributions from industry experts, Java developers and other open source organizations.
+
+J2EE uses many components of J2SE, as well as, has many new features of it’s own like Servlets, JavaBeans, Java Message Services, adding a whole new functionalities to the language.
+
+J2EE uses HTML, CSS, JavaScript etc., so as to create web pages and web services. It’s also one of  the most widely accepted web development standard.
+
+There are also many languages like .net and php, which can do that work, but what distinguishes it from other languages is the versatility, compatibility and security features, which are not that much prominent in other languages.
+
+Nowadays, developers are going more towards this edition, as it more versatile and web friendly than it’s other counterparts.
+
+Apart from these three versions, there was another Java version, released Java Card.
+
+This edition was targeted, to run applets smoothly and securely on smart cards and similar technology.
+
+Portability and security was its main features.
+
+JavaFX is another such edition of Java technology, which is now merged with J2SE 8.It is mainly used, to create rich GUI (Graphical User Interface) in Java apps.
+
+It replaces Swings (in J2SE), with itself as the standard GUI library.
+
+It is supported by both Desktop environment as well as web browsers.
+
+PersonalJava was another edition, which was not deployed much, as its function was fulfilled by further versions of J2ME. Made to support World Wide Web (and Java applets) and consumer electronics.
+
+PersonalJava was also used for embedded systems and mobile. But, it was discontinued in its earlier stages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
